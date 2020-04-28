@@ -1,0 +1,6177 @@
+[
+  {
+    "id": "localhospital",
+    "name": "Товары первой необходимости",
+    "categories": [
+      {
+        "name": "Продукты питания",
+        "id": "food",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Антисептики",
+        "id": "antiseptik",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Средства защиты",
+        "id": "guard-things",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Чистота и гигиена",
+        "id": "cleaning",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Медицинские приборы",
+        "id": "medical-accessories",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Товары для автономной жизни",
+        "id": "accessories-auto-life",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+    },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "laptop-PC",
+    "name": "Ноутбуки и компютеры",
+    "categories": [
+      {
+        "name": "Ноутбуки",
+        "id": "laptop",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Ноутбуки-трансформеры",
+        "id": "laptop-transformers",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Ультрабуки",
+        "id": "laptop-ultra",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Моноблоки",
+        "id": "PC",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Комплектующие для ПК",
+        "id": "accessories-PC",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Жесткие диски и SSD",
+        "id": "HDD-SSD",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "TV-audio-video",
+    "name": "Телевизоры, аудио-видео,  HI-FI",
+    "categories": [
+      {
+        "name": "Телевизоры",
+        "id": "TV",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Техника HI-FI",
+        "id": "HI-FI",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Спутниковое и цифровое ТВ",
+        "id": "sputnik-tv",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Видеотехника",
+        "id": "video",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аудиотехника",
+        "id": "audio",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Проекторы и экраны",
+        "id": "projectors",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "categories": [
+      {
+        "name": "Смартфоны",
+        "id": "smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Планшеты",
+        "id": "tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Мобильные телефоны",
+        "id": "mobile-phones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+
+      },
+      {
+        "name": "Гаджеты",
+        "id": "gadgets",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксуссуары для планшетов",
+        "id": "accessories-tabs",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "Аксессуары для смартфонов",
+        "id": "accessories-smartphones",
+        "items": {
+          "Apple": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "6"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "7"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "8"
+              }
+            }
+          },
+          "Samsung": {
+            "name": "Apple",
+            "id": "apple",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "9"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "10"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "11"
+              }
+            }
+          },
+          "Xiaomi": {
+            "name": "Xiaomi",
+            "id": "xiaomi",
+            "items": {
+              "Iphone 6": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "12"
+              },
+              "Iphone 7": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "13"
+              },
+              "Iphone 8": {
+                "info": "the best one",
+                "img": "",
+                "price": "12",
+                "id": "14"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]
