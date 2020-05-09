@@ -6,10 +6,11 @@ import LeftBar from "./LeftBar";
 import FirstBar from "./FirstBar";
 import SecondBar from "./SecondBar";
 
-export default function Bar() {
+export default function Bar(props) {
+    const { items } = props;
     return (
         <div>
-            <LeftBar/>
+            <LeftBar items={ items }/>
             <header>
                 <div className={'mainBar'}>
                     <FirstBar/>

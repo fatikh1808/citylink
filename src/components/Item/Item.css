@@ -255,3 +255,12 @@ h1 {
     cursor: pointer;
     transition: background-color .1s linear,color .1s linear,border-color .1s linear,border .1s linear,box-shadow .1s linear;
 }
+.photo_carousel_link_photo {
+    height: 100px;
+    width: auto;
+    display: inline-block;
+    margin: 10px 10px;
+}
+.photo_carousel_link {
+    display: inline-block;
+}

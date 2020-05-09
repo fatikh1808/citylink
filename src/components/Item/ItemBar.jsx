@@ -2,8 +2,11 @@ import React from 'react';
 
 import './Item.css'
 
-export default function ItemBar() {
-    return(
+export default function ItemBar(props) {
+
+    let {item} = props;
+
+    return (
         <div className={'item_bar_content'}>
             <div className={'item_bar_content_first_line'}>
                 <span className={'bonus_line'}>
@@ -14,7 +17,7 @@ export default function ItemBar() {
                 <div className={'item_price_box'}>
                     <div className={'price_break'}>
                         <ins className={'num'}>
-                            8888
+                            {item.price}
                         </ins>
                         <ins className={'rub'}>
                             руб.
@@ -22,7 +25,7 @@ export default function ItemBar() {
                     </div>
                     <div className={'club_price'}>
                         <ins className={'club_num'}>
-                            8888
+                            {item.price}
                         </ins>
                         <ins className={'club_rub'}>
                             р

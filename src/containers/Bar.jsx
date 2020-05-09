@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Catalog from "../components/Catalog/Catalog";
+import Bar from "../components/Bar/Bar";
 
 const mapStateToProps = state => ({
     items: state.catalogReducer.items
@@ -7,4 +7,4 @@ const mapStateToProps = state => ({
 
 export default connect (
     mapStateToProps,
-)(Catalog);
+)(Bar);

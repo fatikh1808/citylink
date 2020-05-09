@@ -1,4 +1,8 @@
 import React from 'react';
+
+import FirstCart from "./FirstCart";
+import SecondCart from "./SecondCart";
+
 import { makeStyles } from '@material-ui/core/styles';
 import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
@@ -26,9 +30,9 @@ function getSteps() {
 function getStepContent(step) {
     switch (step) {
         case 0:
-            return '1';
+            return <FirstCart/>;
         case 1:
-            return 'What is an ad group anyways?';
+            return <SecondCart/>;
         case 2:
             return 'This is the bit I really care about!';
         case 3:

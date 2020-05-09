@@ -1,13 +1,40 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 import './Item.css'
-import BreadcrumbsComponent from "./Breadcrumbs";
+import BreadcrumbsComponent from "../Breadcrumbs";
 import ItemBar from "./ItemBar";
 import {useParams} from "react-router-dom";
 
-export default function Item() {
+export default function Item(props) {
+
+
+
+    function findId(data, idToLookFor) {
+        let categoryArray = data;
+        for (let i = 0; i < categoryArray.length; i++) {
+            let j = 0;
+            while (j < categoryArray[i].categories.length) {
+                let k = 0;
+                while (k < categoryArray[i].categories[j].items.length) {
+                    let l = 0;
+                    while (l < categoryArray[i].categories[j].items[k].items.length) {
+                        if (categoryArray[i].categories[j].items[k].items[l].id === idToLookFor) {
+                            return categoryArray[i].categories[j].items[k].items[l]
+                        }
+                        if (categoryArray[i].categories[j].items[k].items[l] === []) break;
+                        l++;
+                    }
+                    k++;
+                }
+                j++;
+            }
+        }
+    }
 
     let { id } = useParams();
+    const { items } = props;
+    let item = findId(items, id)
 
     return (
         <div>
@@ -15,9 +42,10 @@ export default function Item() {
                 <div className={'breadcrumbs_item'}>
                     <BreadcrumbsComponent/>
                 </div>
+                {console.log(item)}
                 <div className={'product_details'}>
                     <div className={'product_id'}>
-                        123456789
+                        {item.id}
                     </div>
                     <div className={'product_sales_indicator'}>
                         Скидки 99%
@@ -25,7 +53,9 @@ export default function Item() {
                 </div>
                 <div className={'product_header'}>
                     <h1>
-                        Название продукта {id}
+                        {item.name}
+                        {item.color}
+                        {item.memory}
                     </h1>
                 </div>
                 <div className={'product_info_switcher'}>
@@ -52,40 +82,31 @@ export default function Item() {
                     </a>
                 </div>
                 <div className={'full_content'}>
-                    <img src="https://items.s1.citilink.ru/1139317_v01_b.jpg"
+                    <img src={`${item.mainImg}`}
                          alt="Смартфон SAMSUNG Galaxy A10 32Gb,  SM-A105F,  черный"/>
                 </div>
                 <div className={'overview_container'}>
-                    <a className="photo_carousel_link__js" href="https://items.s1.citilink.ru/1139317_v01_b.jpg"
-                       data-parent-id="item-1">
-                        <img src="https://items.s1.citilink.ru/1139317_v01_s.jpg"
-                             alt="Смартфон SAMSUNG Galaxy A10 32Gb,  SM-A105F,  черный вид 1" itemProp="contentUrl"
-                             className="mCS_img_loaded"/>
-                    </a>
-                    <a className="photo_carousel_link__js" href="https://items.s1.citilink.ru/1139317_v02_b.jpg"
-                       data-parent-id="item-2">
-                        <img src="https://items.s1.citilink.ru/1139317_v02_s.jpg"
-                             alt="Смартфон SAMSUNG Galaxy A10 32Gb,  SM-A105F,  черный вид 2"
-                             className="mCS_img_loaded"/>
-                    </a>
-                    <a className="photo_carousel_link__js" href="https://items.s1.citilink.ru/1139317_v03_b.jpg"
-                       data-parent-id="item-3">
-                        <img src="https://items.s1.citilink.ru/1139317_v03_s.jpg"
-                             alt="Смартфон SAMSUNG Galaxy A10 32Gb,  SM-A105F,  черный вид 3"
-                             className="mCS_img_loaded"/>
-                    </a>
+                    {
+                        item.imgs.map((item) => (
+                            <div className={'photo_carousel_link'}>
+                                <img src={`${item.img}`}
+                                     alt={`${item.alt}`}
+                                     className="photo_carousel_link_photo"/>
+                            </div>
+                        ))
+                    }
                 </div>
                 <div>
                     <h2>
                         Основные характеристики
                     </h2>
                     <div className={'short_description'}>
-
+                        {item.info}
                     </div>
                 </div>
             </div>
             <div className={'item_bar'}>
-                <ItemBar/>
+                <ItemBar item={item}/>
             </div>
         </div>
     )

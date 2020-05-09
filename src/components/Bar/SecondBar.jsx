@@ -2,7 +2,7 @@ import React from "react";
 
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
-import './AppBar.css'
+import './AppBar.css';
 import {orange} from "@material-ui/core/colors";
 
 export default function SecondBar() {
@@ -22,10 +22,10 @@ export default function SecondBar() {
                 </div>
             <div className={'right_side_header'}>
                 <div className={'cart_header'}>
-                    <div className={'search_icon'}>
+                    <div className={'cart_icon'}>
                         <ShoppingBasketIcon style={{ fontSize: 30, color: orange[500] }}/>
                     </div>
-                    <a className={'header_inner_section_second'} href={'#'}>
+                    <a className={'header_inner_section_second'} href={'/cart'}>
                         Корзина
                     </a>
                 </div>

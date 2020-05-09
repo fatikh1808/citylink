@@ -3,7 +3,8 @@ import React from "react";
 import './AppBar.css'
 import Categories from "./Categories";
 
-export default function LeftBar() {
+export default function LeftBar(props) {
+    const { items } = props;
     return (
         <div className={'leftBar'}>
             <div className={'logo'}>
@@ -12,7 +13,7 @@ export default function LeftBar() {
                 </a>
             </div>
             <div className={'menu_categories'}>
-                <Categories/>
+                <Categories items={ items }/>
             </div>
         </div>
     )

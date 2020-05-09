@@ -3,6 +3,8 @@ import React from "react";
 import CartStepper from "./Stepper";
 import CartBar from "./CartBar";
 
+import './Cart.css';
+
 class Cart extends React.Component {
 
     render() {

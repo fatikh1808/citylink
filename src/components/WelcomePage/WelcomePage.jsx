@@ -1,5 +1,5 @@
 import React from "react";
-import BreadcrumbsComponent from "./Breadcrumbs";
+import BreadcrumbsComponent from "../Breadcrumbs";
 
 export default function WelcomePage() {
     return (
