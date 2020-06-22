@@ -1,0 +1,809 @@
+[
+  {
+    "catalog": [
+      {
+        "byId": [
+          {
+            "id": "localhospital",
+            "name": "Товары первой необходимости",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "mobile",
+            "name": "Смартфоны и гаджеты",
+            "groups": [
+              "smartphones",
+              "tabs",
+              "mobile-phones",
+              "gadgets",
+              "accessories-tabs",
+              "accessories-smartphones"
+            ]
+          },
+          {
+            "id": "laptop-PC",
+            "name": "Ноутбуки и компютеры",
+            "groups": [
+              "laptop",
+              "laptop-transformers",
+              "laptop-ultra",
+              "PC",
+              "accessories-PC",
+              "HDD-SSD"
+            ]
+          },
+          {
+            "id": "TV-audio-video",
+            "name": "Телевизоры, аудио-видео,  HI-FI",
+            "groups": [
+              "TV",
+              "HI-FI",
+              "sputnik-tv",
+              "video",
+              "audio",
+              "projectors"
+            ]
+          },
+          {
+            "id": "laundry",
+            "name": "Бытовая техника для дома и кухни",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "camera",
+            "name": "Фото, видео, системы безопасности",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "car",
+            "name": "Автомобильная электроника",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "microphone",
+            "name": "Канцтовары, Мебель и Офисная техника",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "bike",
+            "name": "Активный отдых, спорт и хобби",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "videoGame",
+            "name": "Товары для геймеров",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "settings",
+            "name": "Сервисы и услуги",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "monetization",
+            "name": "Уцененные товары",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          },
+          {
+            "id": "giftcard",
+            "name": "Подароные сертификаты",
+            "groups": [
+              "food",
+              "antiseptik",
+              "guard-things",
+              "cleaning",
+              "medical-accessories",
+              "accessories-auto-life"
+            ]
+          }
+        ]
+      },
+      {
+        "allIds": [
+          "localhospital",
+          "mobile",
+          "laptop-PC",
+          "TV-audio-video",
+          "laundry",
+          "camera",
+          "car",
+          "microphone",
+          "bike",
+          "videoGame",
+          "settings",
+          "monetization",
+          "giftcard"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "byIds": [
+          {
+            "food": {
+              "name": "Продукты питания",
+              "id": "food",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "antiseptik": {
+              "name": "Антисептики",
+              "id": "antiseptik",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "guard-things": {
+              "name": "Средства защиты",
+              "id": "guard-things",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "cleaning": {
+              "name": "Чистота и гигиена",
+              "id": "cleaning",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "medical-accessories": {
+              "name": "Медицинские приборы",
+              "id": "medical-accessories",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "accessories-auto-life": {
+              "name": "Товары для автономной жизни",
+              "id": "accessories-auto-life",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "smartphones": {
+              "name": "Смартфоны",
+              "id": "smartphones",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "tabs": {
+              "name": "Планшеты",
+              "id": "tabs",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "mobile-phones": {
+              "name": "Мобильные телефоны",
+              "id": "mobile-phones",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "gadgets": {
+              "name": "Гаджеты",
+              "id": "gadgets",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "accessories-tabs": {
+              "name": "Аксессуары для планшетов",
+              "id": "accessories-tabs",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "accessories-smartphones": {
+              "name": "Аксессуары для смартфонов",
+              "id": "accessories-smartphones",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "laptop": {
+              "name": "Ноутбуки",
+              "id": "laptop",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "laptop-transformers": {
+              "name": "Ноутбуки-трансформеры",
+              "id": "laptop-transformers",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "laptop-ultra": {
+              "name": "Ультрабуки",
+              "id": "laptop-ultra",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "PC": {
+              "name": "Моноблоки",
+              "id": "PC",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "accessories-PC": {
+              "name": "Комплектующие для ПК",
+              "id": "accessories-PC",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "HDD-SSD": {
+              "name": "Жесткие диски и SSD",
+              "id": "HDD-SSD",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "TV": {
+              "name": "Телевизоры",
+              "id": "TV",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "HI-FI": {
+              "name": "Техника HI-FI",
+              "id": "HI-FI",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "sputnik-tv": {
+              "name": "Спутниковое и цифровое ТВ",
+              "id": "sputnik-tv",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "video": {
+              "name": "Видеотехника",
+              "id": "video",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "audio": {
+              "name": "Аудиотехника",
+              "id": "audio",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          },
+          {
+            "projectors": {
+              "name": "Проекторы и экраны",
+              "id": "projectors",
+              "sections": [
+                "apple",
+                "samsung",
+                "xiaomi"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "allIds": [
+          "food",
+          "antiseptik",
+          "guard-things",
+          "cleaning",
+          "medical-accessories",
+          "accessories-auto-life",
+          "smartphones",
+          "tabs",
+          "mobile-phones",
+          "gadgets",
+          "accessories-tabs",
+          "accessories-smartphones",
+          "laptop",
+          "laptop-transformers",
+          "laptop-ultra",
+          "PC",
+          "accessories-PC",
+          "HDD-SSD",
+          "TV",
+          "HI-FI",
+          "sputnik-tv",
+          "video",
+          "audio",
+          "projectors"
+        ]
+      }
+    ]
+  },
+  {
+    "sections": [
+      {
+        "byIds": [
+          {
+            "apple": {
+              "name": "Apple",
+              "id": "apple",
+              "items": [
+                "6",
+                "7",
+                "8"
+              ]
+            },
+            "samsung": {
+              "name": "Samsung",
+              "id": "samsung",
+              "items": [
+                "9",
+                "10",
+                "11"
+              ]
+            },
+            "xiaomi": {
+              "name": "Xiaomi",
+              "id": "xiaomi",
+              "items": [
+                "12",
+                "13",
+                "14"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "allIds": [
+          "apple",
+          "samsung",
+          "xiaomi"
+        ]
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "byIds": [
+          {
+            "6": {
+              "name": "Iphone 6",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "6",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "7": {
+              "name": "Iphone 7",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "7",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "8": {
+              "name": "Iphone 8",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "8",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "9": {
+              "name": "Iphone 9",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "9",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "10": {
+              "name": "Iphone 10",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "10",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "11": {
+              "name": "Iphone 11",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "11",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "12": {
+              "name": "Iphone 12",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "12",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "13": {
+              "name": "Iphone 13",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "13",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "14": {
+              "name": "Iphone 14",
+              "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+              "price": "12",
+              "id": "14",
+              "color": "Чёрный",
+              "memory": "32GB",
+              "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+              "imgs": [
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+                  "alt": "left"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+                  "alt": "top"
+                },
+                {
+                  "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+                  "alt": "right"
+                },
+                {
+                  "alt": "bottom",
+                  "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "allIds": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ]
+      }
+    ]
+  }
+]
