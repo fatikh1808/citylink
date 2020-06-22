@@ -4,7 +4,7 @@ import {bindActionCreators} from "redux";
 import { buyItem } from '../actions'
 
 const mapStateToProps = state => ({
-    items: state.catalogReducer.items
+    items: state.catalogReducer.items.filter(item => item.type === "item")
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({

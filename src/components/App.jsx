@@ -30,8 +30,8 @@ function App() {
                             <Switch>
                                 <Route exact path="/" children={<WelcomePage/>}/>
                                 <Route path={'/cart'} children={<Cart/>}/>
-                                <Route path="/catalog/:groupId/:section/:id" children={<Item/>}/>
-                                <Route path="/catalog/:groupId/:section" children={<Section/>}/>
+                                <Route path="/catalog/:groupId/:sectionId/:id" children={<Item/>}/>
+                                <Route path="/catalog/:groupId/:sectionId" children={<Section/>}/>
                                 <Route path="/catalog/:groupId" children={<Group/>}/>
                                 <Route path="/catalog" children={<Catalog/>}/>
                             </Switch>

@@ -9,8 +9,8 @@ import Icons from "../Icons";
 export default function Catalog(props) {
 
     let {url} = useRouteMatch();
-
-    const { items } = props;
+    let {catalog} = props;
+    let {groups} = props;
 
     return (
         <div>
@@ -22,7 +22,7 @@ export default function Catalog(props) {
                     Каталог товаров
                 </h1>
             </div>
-            {items.map((item, index) => (
+            {catalog.map((item, index) => (
                 <div className={'category_catalog'} key={item.id}>
                     <ul className={'category_catalog_item'}>
                         <div className={'category_catalog_header'}>
@@ -38,10 +38,10 @@ export default function Catalog(props) {
                             </div>
                         </div>
                         <div className={'category_catalog_list'}>
-                            {item.categories.map((category) => (
-                                <Link to={`${url}/${category.id}`} key={category.id}
+                            {groups.filter(thing => thing.parent_id === item.id).map((group) => (
+                                <Link to={`${url}/${group.id}`} key={group.id}
                                       className={'category_catalog_list_name_header'}>
-                                    {category.name}
+                                    {group.name}
                                 </Link>
                             ))}
                         </div>

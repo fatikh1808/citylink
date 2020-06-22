@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "localhospital",
+    "name": "Товары первой необходимости",
+    "type": "categories"
+  },
+  {
+    "id": "mobile",
+    "name": "Смартфоны и гаджеты",
+    "type": "categories"
+  },
+  {
+    "id": "laptop-PC",
+    "name": "Ноутбуки и компютеры",
+    "type": "categories"
+  },
+  {
+    "id": "TV-audio-video",
+    "name": "Телевизоры, аудио-видео,  HI-FI",
+    "type": "categories"
+  },
+  {
+    "id": "laundry",
+    "name": "Бытовая техника для дома и кухни",
+    "type": "categories"
+  },
+  {
+    "id": "camera",
+    "name": "Фото, видео, системы безопасности",
+    "type": "categories"
+  },
+  {
+    "id": "car",
+    "name": "Автомобильная электроника",
+    "type": "categories"
+  },
+  {
+    "id": "microphone",
+    "name": "Канцтовары, Мебель и Офисная техника",
+    "type": "categories"
+  },
+  {
+    "id": "bike",
+    "name": "Активный отдых, спорт и хобби",
+    "type": "categories"
+  },
+  {
+    "id": "videoGame",
+    "name": "Товары для геймеров",
+    "type": "categories"
+  },
+  {
+    "id": "settings",
+    "name": "Сервисы и услуги",
+    "type": "categories"
+  },
+  {
+    "id": "monetization",
+    "name": "Уцененные товары",
+    "type": "categories"
+  },
+  {
+    "id": "giftcard",
+    "name": "Подароные сертификаты",
+    "type": "categories"
+  },
+  {
+    "id": "food",
+    "name": "Продукты питания",
+    "parent_id": "localhospital",
+    "type": "group"
+  },
+  {
+    "id": "antiseptik",
+    "name": "Антисептики",
+    "parent_id": "localhospital",
+    "type": "group"
+  },
+  {
+    "id": "guard-things",
+    "name": "Средства защиты",
+    "parent_id": "localhospital",
+    "type": "group"
+  },
+  {
+    "id": "cleaning",
+    "name": "Чистота и гигиена",
+    "parent_id": "localhospital",
+    "type": "group"
+  },
+  {
+    "id": "medical-accessories",
+    "name": "Медицинские приборы",
+    "parent_id": "localhospital",
+    "type": "group"
+  },
+  {
+    "id": "accessories-auto-life",
+    "name": "Товары для автономной жизни",
+    "parent_id": "localhospital",
+    "type": "group"
+  },
+  {
+    "id": "smartphones",
+    "name": "Смартфоны",
+    "parent_id": "mobile",
+    "type": "group"
+  },
+  {
+    "id": "tabs",
+    "name": "Планшеты",
+    "parent_id": "mobile",
+    "type": "group"
+  },
+  {
+    "id": "mobile-phones",
+    "name": "Мобильные телефоны",
+    "parent_id": "mobile",
+    "type": "group"
+  },
+  {
+    "id": "gadgets",
+    "name": "Гаджеты",
+    "parent_id": "mobile",
+    "type": "group"
+  },
+  {
+    "id": "accessories-tabs",
+    "name": "Аксессуары для планшетов",
+    "parent_id": "mobile",
+    "type": "group"
+  },
+  {
+    "id": "accessories-smartphones",
+    "name": "Аксессуары для смартфонов",
+    "parent_id": "mobile",
+    "type": "group"
+  },
+  {
+    "id": "laptop",
+    "name": "Ноутбуки",
+    "parent_id": "laptop-PC",
+    "type": "group"
+  },
+  {
+    "id": "laptop-transformers",
+    "name": "Ноутбуки-трансформеры",
+    "parent_id": "laptop-PC",
+    "type": "group"
+  },
+  {
+    "id": "laptop-ultra",
+    "name": "Ультрабуки",
+    "parent_id": "laptop-PC",
+    "type": "group"
+  },
+  {
+    "id": "PC",
+    "name": "Моноблоки",
+    "parent_id": "laptop-PC",
+    "type": "group"
+  },
+  {
+    "id": "accessories-PC",
+    "name": "Комплектующие для ПК",
+    "parent_id": "laptop-PC",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "laptop-PC",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "TV-audio-video",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "TV-audio-video",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "TV-audio-video",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "TV-audio-video",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "TV-audio-video",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "TV-audio-video",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "laundry",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "laundry",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "laundry",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "laundry",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "laundry",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "laundry",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "laundry",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "camera",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "camera",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "camera",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "camera",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "camera",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "camera",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "car",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "car",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "car",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "car",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "car",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "car",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "microphone",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "microphone",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "microphone",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "microphone",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "microphone",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "microphone",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "bike",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "bike",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "bike",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "bike",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "bike",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "bike",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "videoGame",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "videoGame",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "videoGame",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "videoGame",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "videoGame",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "videoGame",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "settings",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "settings",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "settings",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "settings",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "settings",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "settings",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "monetization",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "monetization",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "monetization",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "monetization",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "monetization",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "monetization",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "giftcard",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "giftcard",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "giftcard",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "giftcard",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "giftcard",
+    "type": "group"
+  },
+  {
+    "id": "HDD-SSD",
+    "name": "Жесткие диски и SSD",
+    "parent_id": "giftcard",
+    "type": "group"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "food"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "antiseptik"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "guard-things"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "medical-accessories"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "accessories-auto-life"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "smartphones"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "tabs"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "mobile-phones"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "accessories-tabs"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "accessories-smartphones"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "laptop"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "laptop-transformers"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "laptop-ultra"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "PC"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "accessories-PC"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "HDD-SSD"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "cleaning"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "type": "section",
+    "parent_group_id": "gadgets"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "food"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "antiseptik"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "guard-things"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "medical-accessories"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "accessories-auto-life"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "smartphones"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "tabs"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "mobile-phones"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "accessories-tabs"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "accessories-smartphones"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "laptop"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "laptop-transformers"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "laptop-ultra"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "PC"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "accessories-PC"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "HDD-SSD"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "cleaning"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "type": "section",
+    "parent_group_id": "gadgets"
+  },{
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "food"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "antiseptik"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "guard-things"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "medical-accessories"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "accessories-auto-life"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "smartphones"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "tabs"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "mobile-phones"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "accessories-tabs"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "accessories-smartphones"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "laptop"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "laptop-transformers"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "laptop-ultra"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "PC"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "accessories-PC"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "HDD-SSD"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "cleaning"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "type": "section",
+    "parent_group_id": "gadgets"
+  },
+  {
+    "parent_section_id": "apple",
+    "type": "item",
+    "name": "Iphone 6",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "6",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  },{
+    "parent_section_id": "apple",
+    "type": "item",
+    "name": "Iphone 7",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "7",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  },{
+    "parent_section_id": "apple",
+    "type": "item",
+    "name": "Iphone 8",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "8",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  },{
+    "parent_section_id": "samsung",
+    "type": "item",
+    "name": "Iphone 9",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "9",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  },{
+    "parent_section_id": "samsung",
+    "type": "item",
+    "name": "Iphone 10",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "10",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  },{
+    "parent_section_id": "samsung",
+    "type": "item",
+    "name": "Iphone 11",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "11",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  },{
+    "parent_section_id": "xiaomi",
+    "type": "item",
+    "name": "Iphone 12",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "12",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  },{
+    "parent_section_id": "xiaomi",
+    "type": "item",
+    "name": "Iphone 13",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "13",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  },{
+    "parent_section_id": "xiaomi",
+    "type": "item",
+    "name": "Iphone 14",
+    "mainImg": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+    "price": "12",
+    "id": "14",
+    "color": "Чёрный",
+    "memory": "32GB",
+    "info": "ОС Android 9, экран: 6.2\", TFT, 1520×720, процессор: Exynos 7884B, 1600МГц, 8-ми ядерный, GPS, ГЛОНАСС, оперативная память: 2Гб, встроенная память: 32Гб",
+    "imgs": [
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v04_b.jpg",
+        "alt": "left"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v02_b.jpg",
+        "alt": "top"
+      },
+      {
+        "img": "https://items.s1.citilink.ru/1139317_v01_b.jpg",
+        "alt": "right"
+      },
+      {
+        "alt": "bottom",
+        "img": "https://items.s1.citilink.ru/1139317_v03_b.jpg"
+      }
+    ]
+  }
+]
