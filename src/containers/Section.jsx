@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import Section from "../components/Section/Section";
 import {bindActionCreators} from "redux";
-import { buyItem, findId } from '../actions'
+import { buyItem } from '../actions'
 
 const mapStateToProps = state => ({
     section: state.catalogReducer.section.filter(item => item.type === "section"),
@@ -10,8 +10,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({
-    buyItem,
-    findId
+    buyItem
 }, dispatch);
 
 export default connect (
