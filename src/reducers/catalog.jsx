@@ -1,12 +1,18 @@
-import data from '../components/Norm.json'
+import * as types from '../constants';
 
 const initialState = {
-    catalog: data,
-    groups: data,
-    section: data,
-    items: data
+    catalog: []
 }
 
-export default function catalogReducer(state = initialState) {
-    return state
+export default function catalogReducer(state = initialState,action) {
+    switch (action.type) {
+
+        case types.GET_ITEM_SUCCESS:
+            return {
+                ...state,
+                catalog: action.payload
+            };
+        default:
+            return state
+    }
 }

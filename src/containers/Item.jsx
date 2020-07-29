@@ -1,14 +1,16 @@
 import { connect } from 'react-redux';
 import Item from '../components/Item/Item'
 import {bindActionCreators} from "redux";
-import { buyItem } from '../actions'
+import { buyItem, getBoughtItem } from '../actions'
 
 const mapStateToProps = state => ({
-    items: state.catalogReducer.items.filter(item => item.type === "item")
+    items: state.catalogReducer.catalog.filter(item => item.type === "item"),
+    customerId: state.authReducer.userId
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({
-    buyItem
+    buyItem,
+    getBoughtItem
 }, dispatch);
 
 export default connect (

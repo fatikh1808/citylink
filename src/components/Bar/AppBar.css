@@ -15,7 +15,7 @@ header {
     max-width: 100%;
     padding: 0 20px 10px;
     position: relative;
-    height: 65px;
+    height: 31px;
 
 }
 .second_bar {
@@ -38,9 +38,7 @@ header {
     height: 100%;
     z-index: 110;
     width: 220px;
-    /*overflow: auto;*/
     overflow-y: auto;
-    /*overflow-x: auto;*/
 }
 .mainBar {
     font: normal 100%/1.6 PT Sans,Arial,sans-serif;
@@ -97,16 +95,45 @@ header {
     position: relative;
     height: 50px;
     top: 0;
+
 }
 .header_inner_section {
     font: normal 100%/1.6 PT Sans,Arial,sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     color: #000;
     white-space: nowrap;
     display: inline-block;
-    padding: 10px 5px;
     position: relative;
+    top: 0px;
+    margin-left: 4px;
+    padding: 10px 0px 17px 15px;
+    margin-right: 0px;
 }
+.header_inner_section_auth {
+    font: normal 100%/1.6 PT Sans,Arial,sans-serif;
+    font-size: 12px;
+    color: #000;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding: 10px 37px 17px 9px;
+}
+.header_inner_section_register {
+    font: normal 100%/1.6 PT Sans,Arial,sans-serif;
+    font-size: 12px;
+    color: #000;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    padding: 10px 9px 17px 2px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
 .header_inner_section_second {
     font: normal 100%/1.6 PT Sans,Arial,sans-serif;
     font-size: 13px;
@@ -150,7 +177,6 @@ header {
 .dropdown_toogle{
     font: normal 100%/1.6 PT Sans,Arial,sans-serif;
     list-style: none;
-    margin-right: 15px;
     cursor: pointer;
     position: relative;
     user-select: none;
@@ -158,8 +184,9 @@ header {
     color: #f37f00;
     border-bottom: 1.5px dashed #f37f00!important;
     white-space: nowrap;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    width: 120px;
+    fonst-size: 17px;
+    margin: 7px 15px 0px 6px;
 }
 .header_inner_phone {
     font: normal 100%/1.6 PT Sans,Arial,sans-serif;
@@ -177,24 +204,26 @@ header {
     position: relative;
     vertical-align: baseline;
     font-size: 13px;
-    padding: 4px 25px 0 20px;
     float: none!important;
     margin-top: 0px;
+    padding: 4px 25px 0 15px;
 }
 .search_header {
     font: normal 100%/1.6 PT Sans,Arial,sans-serif;
     color: #000;
     z-index: 11;
-    margin-top: 0;
+    margin-top: 1px;
+    border-radius: 5px;
     max-width: 690px;
-    margin-right: 30px;
-    width:a;
     position: relative;
     vertical-align: baseline;
     float: left;
     background-color: #f8f7f5;
-    height: 40px;
     top: 14px;
+    margin-right: 0px;
+    width: 503px;
+    margin-left: 8px;
+    height: 40px;
 }
 .search_input {
     font: normal 100%/1.6 PT Sans,Arial,sans-serif;
@@ -202,15 +231,17 @@ header {
     position: relative;
     width: 443px;
     background-position: 9px 13px;
-    font-size: 14px;
     outline: none;
-    padding: 0 5px;
     text-shadow: 0 2px 3px rgba(0,0,0,.1);
     height: 40px;
     background-color: #f8f7f5;
     border: none;
     border-radius: 5px;
     float: right;
+    padding: 0 5px 0 0px;
+    margin-right: 28px;
+    font-size: 12.6px;
+    margin-top: 2px;
 }
 .main_links_column {
     font: normal 100%/1.6 PT Sans,Arial,sans-serif;
@@ -231,7 +262,10 @@ header {
     height: 69px;
     width: 77px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 16px;
     border-left: 1px solid rgba(0,0,0,.1);
 }
 .header_inner_section_list_second {
@@ -243,7 +277,7 @@ header {
     position: relative;
     height: 50px;
     top: 0;
-    padding-top: 15px;
+    padding-top: 11px;
     padding-bottom: 5px;
 }
 .MuiListItem-button {
@@ -255,14 +289,14 @@ h6 {
     margin-left: 10px;
 }
 .search_icon{
-    height: 30px;
-    width: 30px;
+    width: 25px;
     margin-right: 0;
     display: inline-block;
     float: left;
-    padding-right: 5px;
-    margin-left: 0;
-    padding-left: 4px
+    padding-left: 4px;
+    margin-left: 1px;
+    margin-top: 9px;
+    height: 25px;
 }
 .cart_icon {
     height: 30px;
@@ -291,8 +325,22 @@ h6 {
     top: 14px;
 }
 .header_inner {
-    margin-left: 290px;
+    margin-left: 240px;
 }
 menu {
     list-style-type: none;
+}
+.auth_icon {
+    font: normal 100%/1.6 PT Sans,Arial,sans-serif;
+    font-size: 12px;
+    color: #000;
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    padding: 0;
+    right: 125px;
+    margin: 5px;
+    border: 0;
+    background-color: white;
 }

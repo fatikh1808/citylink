@@ -1,0 +1,78 @@
+.main_content_register {
+    margin-top: 10px;
+}
+.register_header {
+    display: block;
+    height: 38px;
+    width: auto;
+    margin-bottom: 6px;
+    padding-top: 0px;
+    font-size: 14.7px;
+}
+.register_first_text {
+    width: 68%;
+    font-size: 17px;
+}
+.register_stepper {
+    height: 47px;
+    margin-bottom: 3px;
+}
+.register_email {
+    margin-top: 23px;
+    margin-left: -1px;
+    display: inline-block;
+    float: left;
+}
+.register_email_input {
+    margin-left: 20px;
+    display: inline-block;
+    float: right;
+    width: 230px;
+    height: 25px;
+    margin-right: 674px;
+    margin-top: 21px;
+}
+.register_email_password_block {
+    padding-left: 20px;
+    font-size: 15px;
+}
+.register_mobile {
+    margin-top: 4px;
+    display: inline-block;
+    float: left;
+    margin-top: 64px;
+}
+.register_mobile_input {
+    display: inline-block;
+    float: right;
+    margin-top: 57px;
+    margin-right: 674px;
+    width: 230px;
+    height: 25px;
+}
+.register_buttons_block {
+    margin-top: 187px;
+    margin-left: 570px;
+}
+.register_next_button {
+    float: right;
+    display: inline-block;
+    width: 72px;
+    height: 32px;
+    margin-right: 378px;
+}
+.register_back_button {
+    float: left;
+    width: 70px;
+    height: 32px;
+    display: inline-block;
+}
+.register_question {
+    padding-top: 47px;
+    font-size: 15px;
+}
+.register_to_begin {
+    margin-top: 32px;
+    height: 42px;
+    width: -webkit-fill-available;
+}

@@ -18,11 +18,8 @@ export default function Section(props) {
             <div className={'breadcrumbs'}>
                 <BreadcrumbsComponent/>
             </div>
-            {console.log(section)}
-            {console.log(items)}
-            {console.log(groups)}
             {groups.filter(group => group.id === sectionId).map((group) =>(
-                <div className={'content_group_name'}>
+                <div className={'content_group_name'} key={group.id}>
                     <h1 className={'group_name_header'}>
                         {group.name}
                     </h1>

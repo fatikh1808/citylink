@@ -1,8 +1,10 @@
 import React from "react";
 
 import './AppBar.css'
+import {Link} from "react-router-dom";
 
-export default function FirstBar() {
+export default function FirstBar(props) {
+
     return (
         <div className={'first_bar'}>
             <div className={'header_inner_notifications'}>
@@ -14,35 +16,30 @@ export default function FirstBar() {
                         Moscow
                     </p>
                 </div>
-                <div className={'header_inner_holiday_time'}>
-                    <a className={'.pretty_button_of_new'} href={'#'}>
-                        Казань Натана Рахлина
-                    </a>
-                </div>
             </div>
             <div className={'header_inner'}>
             <div className={'header_inner_section_list'}>
-                <a className={'header_inner_section'} href={'#'}>
-                    Арсенал
-                </a>
-                <a className={'header_inner_section'} href={'#'}>
+                <Link className={'header_inner_section'} to={'#'}>
+                    Арсенал  #
+                </Link>
+                <Link className={'header_inner_section'} to={'#'}>
                     Акции
-                </a>
-                <a className={'header_inner_section'} href={'#'}>
+                </Link>
+                <Link className={'header_inner_section'} to={'#'}>
                     Информация
-                </a>
-                <a className={'header_inner_section'} href={'#'}>
+                </Link>
+                <Link className={'header_inner_section'} to={'#'}>
                     Ситилинк.Бизнес
-                </a>
-                <a className={'header_inner_section'} href={'#'}>
+                </Link>
+                <Link className={'header_inner_section'} to={'#'}>
                     Доставка
-                </a>
-                <a className={'header_inner_section'} href={'#'}>
+                </Link>
+                <Link className={'header_inner_section'} to={'#'}>
                     Адреса магазинов
-                </a>
-                <a className={'header_inner_section'} href={'#'}>
+                </Link>
+                <Link className={'header_inner_section'} to={'#'}>
                     Обратная связь
-                </a>
+                </Link>
             </div>
             </div>
         </div>

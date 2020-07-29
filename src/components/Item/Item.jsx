@@ -3,18 +3,18 @@ import React from "react";
 import './Item.css'
 import BreadcrumbsComponent from "../Breadcrumbs";
 import ItemBar from "./ItemBar";
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 
 export default function Item(props) {
 
     let {id} = useParams();
-    const {items} = props;
+    const {items, customerId, buyItem, getBoughtItem} = props;
 
     return (
         <div>
         {
-            items.filter(item => item.id === id).map((item) => (
-                <div>
+            items.filter((item => item.id === id), customerId).map((item) => (
+                <div key={item.id}>
                     <div className={'item_content'}>
                         <div className={'breadcrumbs_item'}>
                             <BreadcrumbsComponent/>
@@ -35,27 +35,27 @@ export default function Item(props) {
                             </h1>
                         </div>
                         <div className={'product_info_switcher'}>
-                            <a className={'product_info_tab'}>
+                            <Link to={'#'} className={'product_info_tab'}>
                                 Характеристики
-                            </a>
-                            <a className={'product_info_tab'}>
+                            </Link>
+                            <Link to={'#'} className={'product_info_tab'}>
                                 Аксессуары
-                            </a>
-                            <a className={'product_info_tab'}>
+                            </Link>
+                            <Link to={'#'} className={'product_info_tab'}>
                                 Услуги
-                            </a>
-                            <a className={'product_info_tab'}>
+                            </Link>
+                            <Link to={'#'} className={'product_info_tab'}>
                                 Обзоры
-                            </a>
-                            <a className={'product_info_tab'}>
+                            </Link>
+                            <Link to={'#'} className={'product_info_tab'}>
                                 Отзывы
-                            </a>
-                            <a className={'product_info_tab'}>
+                            </Link>
+                            <Link to={'#'} className={'product_info_tab'}>
                                 Вопрос-ответ
-                            </a>
-                            <a className={'product_info_tab'}>
+                            </Link>
+                            <Link to={'#'} className={'product_info_tab'}>
                                 Сертификаты
-                            </a>
+                            </Link>
                         </div>
                         <div className={'full_content'}>
                             <img src={`${item.mainImg}`}
@@ -63,8 +63,8 @@ export default function Item(props) {
                         </div>
                         <div className={'overview_container'}>
                             {
-                                item.imgs.map((item) => (
-                                    <div className={'photo_carousel_link'}>
+                                item.imgs.map((item, index) => (
+                                    <div className={'photo_carousel_link'} key={index}>
                                         <img src={`${item.img}`}
                                              alt={`${item.alt}`}
                                              className="photo_carousel_link_photo"/>
@@ -82,7 +82,12 @@ export default function Item(props) {
                         </div>
                     </div>
                     <div className={'item_bar'}>
-                        <ItemBar item={item}/>
+                        <ItemBar
+                            item={item}
+                            buyItem={buyItem}
+                            customerId={customerId}
+                            getBoughtItem={getBoughtItem}
+                        />
                     </div>
                 </div>
             ))

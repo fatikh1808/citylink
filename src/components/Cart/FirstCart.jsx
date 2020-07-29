@@ -1,50 +1,53 @@
 import React from 'react';
 
-export default class FirstCart extends React.Component {
+export default function FirstCart(props) {
 
-    render() {
-        return (
-            <div>
-                <div className={'cart_amount_bar'}>
-                    <div className={'cart_amount_bar_checkbox'}>
-                        <input type={'checkbox'}/>
-                    </div>
-                    <div className={'cart_amount_bar_amount'}>
-                        1 шт.
-                    </div>
-                    <div className={'cart_amount_bar_price'}>
-                        66 р.
-                    </div>
-                    <div className={'cart_amount_bar_delete'}>
-                        <button> x </button>
-                    </div>
+    let {boughtItems} = props;
+
+    console.log(boughtItems);
+    return (
+        <div>
+            <div className={'cart_amount_bar'}>
+                <div className={'cart_amount_bar_checkbox'}>
+                    <input type={'checkbox'} className={'cart_checkbox'}/>
                 </div>
-                <div className={'cart_product_content'}>
+                <div className={'cart_amount_bar_amount'}>
+                    1 шт.
+                </div>
+                <div className={'cart_amount_bar_price'}>
+                    66 р.
+                </div>
+                <div className={'cart_amount_bar_delete'}>
+                    <button
+                        className={'cart_amount_bar_delete_button'}
+                    > x
+                    </button>
+                </div>
+            </div>
+            {boughtItems.map((item, index) => (
+                <div className={'cart_product_content'} key={index}>
                     <div className={'check_control'}>
-                        <input type={'checkbox'}/>
+                        <input type={'checkbox'} className={'cart_checkbox'}/>
                     </div>
                     <div className={'product_info'}>
                         <div className={'product_info_img'}>
-                            <img src="https://items.s1.citilink.ru/1366926_v01_s.jpg" alt=""/>
+                            <img className={'product_info_img_img'} src={item.item.mainImg} alt="123456"/>
                         </div>
                         <div className={'product_info_id'}>
-                            1366926
+                            {item.item.id}
                         </div>
                         <div className={'product_info_name'}>
-                            Макароны PASTA ZARA
+                            {item.item.name}
                         </div>
                     </div>
                     <div className={'product_amount'}>
-                        1 шт.
+                        <input className={'product_amount_input'}/>шт.
                     </div>
                     <div className={'product_price'}>
-                        66 р
-                    </div>
-                    <div className={'product_delete_button'}>
-                        <button> x </button>
+                        {item.item.price}
                     </div>
                 </div>
-            </div>
-        );
-    }
+            ))}
+        </div>
+    );
 }

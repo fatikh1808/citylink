@@ -4,9 +4,9 @@ import {bindActionCreators} from "redux";
 import { buyItem } from '../actions'
 
 const mapStateToProps = state => ({
-    section: state.catalogReducer.section.filter(item => item.type === "section"),
-    groups: state.catalogReducer.groups.filter(item => item.type === "group"),
-    items: state.catalogReducer.items.filter(item => item.type === "item")
+    section: state.catalogReducer.catalog.filter(item => item.type === "section"),
+    groups: state.catalogReducer.catalog.filter(item => item.type === "group"),
+    items: state.catalogReducer.catalog.filter(item => item.type === "item")
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({

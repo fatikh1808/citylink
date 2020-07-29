@@ -1,22 +1,17 @@
+import * as types from '../constants';
 
 const initialState = {
     boughtItems: []
-};
+}
 
-export default function cartReducer(state = initialState, action) {
+export default function cart(state = initialState,action) {
     switch (action.type) {
-        case 'BUY_ITEM':
-            return {...state.boughtItems, boughtItems: [ ...state.boughtItems, action.payload]};
 
-        case 'DELETE_ITEM': {
-            let itemId = action.payload.id;
-
-            let newTools = state.buyTools.filter(function (action) {
-                return action.id !== itemId;
-            });
-            return {buyTools: newTools}
-        }
-
+        case types.GET_BOUGHT_ITEM_SUCCESS:
+            return {
+                ...state,
+                boughtItems: action.payload
+            };
         default:
             return state
     }

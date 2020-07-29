@@ -1,6 +1,37 @@
 import React from "react";
 
-export default function CartBar() {
+export default function CartBar(props) {
+
+    const {
+        stepperGo,
+        firstCart,
+        boughtItems
+    } = props;
+
+    function stepperBar() {
+        if (firstCart) {
+            return {
+                name: 'firstCart',
+                motion: false,
+                secondName: 'secondCart',
+                secondMotion: true
+            };
+        }
+    }
+
+    function Button() {
+        if (firstCart) {
+            return (
+                <button
+                    className={'cart_bar_button'}
+                    onClick={() => stepperGo(stepperBar())}
+                >
+                    Оформить заказ
+                </button>
+            );
+        }
+    }
+
     return (
         <div className={'cart_bar_content'}>
             <div className={'cart_bar_content_section_one'}>
@@ -16,9 +47,7 @@ export default function CartBar() {
             <div className={'cart_bar_content_section_two'}>
                 <div className={'cart_bar_content_section_two_sum'}>
                     <div className={'cart_bar_content_section_two_button'}>
-                        <button className={'cart_bar_button'}>
-                            Оформить заказ
-                        </button>
+                        {Button()}
                     </div>
                     <div className={'payment_services'}>
                         <img src="https://static.citilink.ru/media/global/visa.png?1587480945" alt="Visa"/>

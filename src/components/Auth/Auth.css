@@ -1,0 +1,85 @@
+.main_block {
+    position: absolute;
+    top: 96px;
+    left: 64.5%;
+    right: 13.6%;
+    padding: 15px;
+    height: 455px;
+    border-radius: 10px;
+    border: 0px #e6e6e6;
+    background-color: #f8f7f5;
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.4);
+}
+.p_email {
+    font-size: small;
+    padding-left: 9px;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+    margin-top: 11px;
+}
+.p_email_finish {
+    font-size: small;
+    padding-left: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    text-align: center;
+}
+.p_email_second {
+    font-size: small;
+    padding-left: 9px;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+    margin-top: 11px;
+    display: inline-block;
+    float: left;
+}
+.p_email_third {
+    font-size: small;
+    padding-left: 9px;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+    margin-top: 11px;
+    display: inline-block;
+    float: right;
+}
+
+.auth_input {
+    width: 253px;
+    margin-bottom: 9px;
+    height: 37px;
+    border-radius: 5px;
+    border: 0px;
+}
+.auth_input_second {
+    width: 253px;
+    margin-bottom: 5px;
+    height: 37px;
+    border-radius: 5px;
+    border: 0px;
+}
+.auth_password {
+    width: 168px;
+    height: 39px;
+    margin-left: 43px;
+}
+.auth_button {
+    width: 262px;
+    height: 40px;
+    margin-top: 12px;
+    font-size: medium;
+    border: 0px;
+    background-color: #f37f00;
+    color: #f8f7f5;
+    border: 0px;
+    border-radius: 5px;
+}
+.auth_button_second {
+    width: 262px;
+    margin-top: 18px;
+    height: 40px;
+    font-size: medium;
+    border: 0px;
+    background-color: rgba(204,255,229,0);
+    color: #17689b;
+}

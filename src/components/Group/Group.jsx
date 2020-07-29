@@ -17,7 +17,7 @@ export default function Group(props) {
                 <BreadcrumbsComponent/>
             </div>
             {catalog.filter(thing => thing.id === groupId).map((group) => (
-                <div className={'content_group_name'}>
+                <div className={'content_group_name'} key={group.id}>
                     <h1 className={'group_name_header'}>
                         {group.name}
                     </h1>

@@ -4,7 +4,12 @@ import './Item.css'
 
 export default function ItemBar(props) {
 
-    let {item} = props;
+    let {item, customerId, buyItem, getBoughtItem} = props;
+
+    function handleBuy(item) {
+        buyItem(item, customerId);
+        getBoughtItem()
+    }
 
     return (
         <div className={'item_bar_content'}>
@@ -33,7 +38,10 @@ export default function ItemBar(props) {
                     </div>
                 </div>
                 <div className={'item_button_box'}>
-                    <button className={'add_to_cart'}>
+                    <button
+                        className={'add_to_cart'}
+                        onClick={() => handleBuy(item, customerId)}
+                    >
                         В корзину
                     </button>
                     <div className={'item_credit_box'}>
