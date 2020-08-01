@@ -5,7 +5,8 @@ export default function CartBar(props) {
     const {
         stepperGo,
         firstCart,
-        boughtItems
+        boughtItems,
+        sum
     } = props;
 
     function stepperBar() {
@@ -40,7 +41,7 @@ export default function CartBar(props) {
                         Сумма к оплате
                     </div>
                     <div className={'cart_bar_content_section_one_price'}>
-                        89 р
+                        {sum} р
                     </div>
                 </div>
             </div>

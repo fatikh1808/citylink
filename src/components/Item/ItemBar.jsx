@@ -1,18 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import './Item.css'
 
 export default function ItemBar(props) {
 
+    const [buy, setBuy] = useState(null)
     let {item, customerId, buyItem, getBoughtItem} = props;
 
-    function handleBuy(item) {
-        buyItem(item, customerId);
-        getBoughtItem()
+    function handleBuy(item, customerId) {
+        if (buy !== item) {
+            setBuy(item)
+            buyItem(item, customerId)
+            getBoughtItem()
+        }
     }
 
     return (
         <div className={'item_bar_content'}>
+            {console.log(buy)}
             <div className={'item_bar_content_first_line'}>
                 <span className={'bonus_line'}>
                     +89 bonus

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 
 import CartBar from "./CartBar";
 import './Cart.css';
@@ -22,9 +22,51 @@ export default function Cart(props) {
         boughtItems
     } = props;
 
-    const [productAmount, setProductAmount] = useState('');
-    const [price, setPrice] = useState('');
-    const [generalPrice, setGeneralPrice] = useState('');
+    let bought = (data) => {
+
+        let tmp = []
+
+        data.forEach(function (item) {
+            let tempKey = item.item.id;
+            if (!tmp.hasOwnProperty(tempKey)) {
+                tmp[tempKey] = {...item};
+            } else {
+                tmp[tempKey].countItem += item.countItem
+            }
+        });
+
+        return Object.keys(tmp).map(function (key) {
+            return tmp[key];
+        });
+    }
+
+    let sum = (data) => {
+        let sumPrice = []
+        data.forEach(function (item) {
+            let tempPrice = item.item.price * item.countItem;
+            {
+                sumPrice = +sumPrice + +tempPrice
+            }
+        });
+        return sumPrice;
+    }
+
+    let amount = (data) => {
+        let sumPrice = []
+        data.forEach(function (item) {
+            let tempPrice = item.countItem;
+            {
+                sumPrice = +sumPrice + +tempPrice
+            }
+        });
+        return sumPrice;
+    }
+
+    const [buyItems, setBuyItems] = useState(boughtItems)
+    const [generalPrice, setGeneralPrice] = useState(sum(buyItems));
+    const [sortedBuyItems, setSortedBuyItems] = useState(bought(buyItems));
+    const [generalAmount, setGeneralAmount] = useState(amount(sortedBuyItems));
+    const [checkedItems, setCheckedItems] = useState([]);
     const [delivery, setDelivery] = useState('');
     const [shopAddress, setShopAddress] = useState('');
     const [pickerOfTheGoods, setPickerOfTheGoods] = useState([]);
@@ -34,31 +76,84 @@ export default function Cart(props) {
     const [smsNotification, setSmsNotification] = useState('');
     const [allInfo, setAllInfo] = useState([]);
 
+    function onChange(event, item) {
+
+        let objectIndex = sortedBuyItems.indexOf(item)
+
+        if (event.target.value === '') {
+            sortedBuyItems.splice(objectIndex, 1)
+            setCheckedItems(checkedItems.filter(a => a.id !== item.id))
+        } else {
+            sortedBuyItems[objectIndex].countItem = parseInt(event.target.value)
+        }
+
+        setSortedBuyItems([...sortedBuyItems])
+        setGeneralAmount(amount(sortedBuyItems))
+        setGeneralPrice(sum(sortedBuyItems))
+    }
+
+    function onChangeCheckbox(event) {
+        const {id, checked, name} = event.target
+        if (name === 'itemCheckbox') {
+            let check = sortedBuyItems.find(item => parseInt(item.id) === parseInt(id))
+            let find = checkedItems.find(item => parseInt(item.id) === parseInt(id))
+            if (checked === true) {
+                if (find === undefined) {
+                    setCheckedItems([...checkedItems, check])
+                }
+            } else {
+                let a = checkedItems.filter(item => item.id !== check.id)
+                setCheckedItems([...a])
+            }
+        } else {
+            if (checked === true) {
+                setCheckedItems([...checkedItems, ...sortedBuyItems.filter(f => !checkedItems.includes(f))]);
+            } else {
+                setCheckedItems([])
+            }
+        }
+    }
+
+    function generalDelete() {
+        setSortedBuyItems(sortedBuyItems.filter(item => !checkedItems.includes(item)))
+
+        setCheckedItems([])
+    }
+
+    useEffect(() => {
+        setGeneralAmount(amount(sortedBuyItems))
+        setGeneralPrice(sum(sortedBuyItems))
+    }, [sortedBuyItems])
+
     function stepper() {
         if (firstCart) {
             return <FirstCart
-                stepperGo={stepperGo}
-                boughtItems={boughtItems}
+                boughtItems={sortedBuyItems}
+                generalPrice={generalPrice}
+                generalAmount={generalAmount}
+                onChange={onChange}
+                onChangeCheckbox={onChangeCheckbox}
+                generalDelete={generalDelete}
             />
         } else if (secondCart) {
             return <SecondCart
                 stepperGo={stepperGo}
-                boughtItems={boughtItems}
+                sortedBuyItems={sortedBuyItems}
             />
         } else if (thirdCart) {
             return <ThirdCart
                 stepperGo={stepperGo}
-                boughtItems={boughtItems}
+                setDelivery={setDelivery}
+                setShopAddress={setShopAddress}
+                setPickerOfTheGoods={setPickerOfTheGoods}
             />
         } else if (fourthCart) {
             return <FourthCart
                 stepperGo={stepperGo}
-                boughtItems={boughtItems}
             />
         } else {
             return <FifthCart
                 stepperGo={stepperGo}
-                boughtItems={boughtItems}
             />
         }
     }
@@ -66,6 +161,7 @@ export default function Cart(props) {
     return (
         <div>
             <div className={'cart_content'}>
+                {console.log(sortedBuyItems)}
                 <div className={'cart_name_header'}>
                     <h1>
                         Корзина
@@ -75,7 +171,7 @@ export default function Cart(props) {
                     {step.map((order_step) => {
                         return (
                             <li key={order_step} className={'order_step'}>{order_step}
-                                <li className={'order_stepper'}>-></li>
+                                - >
                             </li>
                         );
                     })}
@@ -88,7 +184,8 @@ export default function Cart(props) {
                 <CartBar
                     stepperGo={stepperGo}
                     firstCart={firstCart}
-                    boughtItems={boughtItems}
+                    boughtItems={buyItems}
+                    sum={generalPrice}
                 />
             </div>
         </div>

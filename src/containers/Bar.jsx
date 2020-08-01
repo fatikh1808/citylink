@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import Bar from "../components/Bar/Bar";
 import {bindActionCreators} from "redux";
-import {getItem, handleLogout} from "../actions";
+import {getItem, handleLogout, getBoughtItem} from "../actions";
 
 const mapStateToProps = state => ({
     items: state.catalogReducer.catalog.filter(item => item.type === "categories"),
@@ -10,6 +10,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => bindActionCreators({
     getItem,
+    getBoughtItem,
     handleLogout
 }, dispatch);
 

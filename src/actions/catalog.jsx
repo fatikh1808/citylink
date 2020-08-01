@@ -41,6 +41,7 @@ export function buyItem(item, customerId) {
             body: JSON.stringify({
                 item,
                 "customerId": customerId,
+                "countItem": 1
             }),
         })
             .then(response => response.json())

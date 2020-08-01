@@ -10,6 +10,7 @@ export default class Bar extends React.Component{
 
     componentDidMount() {
         this.props.getItem()
+        this.props.getBoughtItem()
     }
 
     render() {

@@ -2,8 +2,12 @@ import React from 'react';
 
 export default function SecondCart(props) {
 
-    const {stepperGo} = props;
+    const {
+        stepperGo,
+        sortedBuyItems
+    } = props;
 
+    {console.log(sortedBuyItems)}
     return (
         <div>
             <div className={'order_second '}>
@@ -26,20 +30,28 @@ export default function SecondCart(props) {
                     К выбору способа и адреса доставки, либо выберите сервисы и услуги:
                 </div>
             </div>
-            <div className={'product_info_container'}>
-                <div className={'image_container_second'}>
-                    <img src="https://items.s1.citilink.ru/1139317_v01_s.jpg" alt=""/>
-                </div>
-                <div className={'name_container_second'}>
-                    Смартфон SAMSUNG Galaxy A10 32Gb, SM-A105F, черный
-                </div>
-                <div className={'parse_container_second'}>
-                    1 шт.
-                </div>
-                <div className={'price_container_second'}>
-                    7990 p
-                </div>
-            </div>
+            {
+                sortedBuyItems.map((item) => (
+                    <div className={'product_info_container'} key={item.id}>
+                        <div className={'image_container_second'}>
+                            <img
+                                className={'product_info_img_img'}
+                                src={item.item.mainImg}
+                                alt="123456"
+                            />
+                        </div>
+                        <div className={'name_container_second'}>
+                            {item.item.id} {item.item.name}
+                        </div>
+                        <div className={'parse_container_second'}>
+                            {item.countItem} шт.
+                        </div>
+                        <div className={'price_container_second'}>
+                            {item.item.price * item.countItem} p
+                        </div>
+                    </div>
+                ))
+            }
             <div className={'next_commands'}>
                 <button
                     className={'second_cart_button_next'}
