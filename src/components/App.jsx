@@ -16,7 +16,7 @@ import Cart from "../containers/Cart";
 import Auth from "../containers/Auth";
 import Register from "../containers/Register";
 
-function App() {
+const App = () => {
 
     let location = useLocation();
 

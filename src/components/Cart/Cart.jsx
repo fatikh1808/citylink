@@ -62,19 +62,14 @@ export default function Cart(props) {
         return sumPrice;
     }
 
-    const [buyItems, setBuyItems] = useState(boughtItems)
+    const [buyItems] = useState(boughtItems)
     const [generalPrice, setGeneralPrice] = useState(sum(buyItems));
     const [sortedBuyItems, setSortedBuyItems] = useState(bought(buyItems));
     const [generalAmount, setGeneralAmount] = useState(amount(sortedBuyItems));
     const [checkedItems, setCheckedItems] = useState([]);
-    const [delivery, setDelivery] = useState('');
-    const [shopAddress, setShopAddress] = useState('');
-    const [pickerOfTheGoods, setPickerOfTheGoods] = useState([]);
-    const [paymentType, setPaymentType] = useState('');
-    const [notificationType, setNotificationType] = useState([]);
-    const [getSmsWithNumberOfTheGood, setGetSmsWithNumberOfTheGood] = useState('');
-    const [smsNotification, setSmsNotification] = useState('');
-    const [allInfo, setAllInfo] = useState([]);
+    const [orderInfo, setOrderInfo] = useState([])
+    const [name, setName] = useState('');
+    const [lastName, setLastName] = useState('');
 
     function onChange(event, item) {
 
@@ -116,7 +111,6 @@ export default function Cart(props) {
 
     function generalDelete() {
         setSortedBuyItems(sortedBuyItems.filter(item => !checkedItems.includes(item)))
-
         setCheckedItems([])
     }
 
@@ -143,17 +137,28 @@ export default function Cart(props) {
         } else if (thirdCart) {
             return <ThirdCart
                 stepperGo={stepperGo}
-                setDelivery={setDelivery}
-                setShopAddress={setShopAddress}
-                setPickerOfTheGoods={setPickerOfTheGoods}
+                setOrderInfo={setOrderInfo}
+                name={name}
+                setName={setName}
+                lastName={lastName}
+                setLastName={setLastName}
             />
         } else if (fourthCart) {
             return <FourthCart
                 stepperGo={stepperGo}
+                orderInfo={orderInfo}
+                setOrderInfo={setOrderInfo}
             />
         } else {
             return <FifthCart
                 stepperGo={stepperGo}
+                orderInfo={orderInfo}
+                setOrderInfo={setOrderInfo}
+                sortedBuyItems={sortedBuyItems}
+                generalPrice={generalPrice}
+                generalAmount={generalAmount}
+                name={name}
+                lastName={lastName}
             />
         }
     }
@@ -161,7 +166,7 @@ export default function Cart(props) {
     return (
         <div>
             <div className={'cart_content'}>
-                {console.log(sortedBuyItems)}
+                {console.log(orderInfo)}
                 <div className={'cart_name_header'}>
                     <h1>
                         Корзина

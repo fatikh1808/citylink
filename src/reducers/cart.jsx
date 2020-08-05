@@ -5,7 +5,6 @@ const initialState = {
 }
 
 export default function cart(state = initialState,action) {
-    console.log(action)
     switch (action.type) {
         case types.GET_BOUGHT_ITEM_SUCCESS:
             return {

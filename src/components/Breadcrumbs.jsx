@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-function handleClick(event) {
+const handleClick = (event) => {
     event.preventDefault();
     console.info('You clicked a breadcrumb.');
 }
@@ -26,7 +26,7 @@ export default function BreadcrumbsComponent() {
                 <Link color="inherit" href="/" onClick={handleClick} style={{fontSize: 13}}>
                     Material-UI
                 </Link>
-                <Link color="inherit" href="/getting-started/installation/" onClick={handleClick} style={{fontSize: 13}}>
+                <Link color="inherit" href="#" onClick={handleClick} style={{fontSize: 13}}>
                     Core
                 </Link>
                 <Typography color="textPrimary" style={{fontSize: 13}}>Breadcrumb</Typography>
