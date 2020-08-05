@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import Pickup from "./Pickup";
-import Delivery from "./Delivery";
+import SetPickup from "./SetPickup";
 
 export default function ThirdCart(props) {
 
@@ -34,7 +33,7 @@ export default function ThirdCart(props) {
             alert('last name?')
         } else if (phone === '') {
             alert('wht abt ur phone number ?')
-        }else if (shopAddress === '') {
+        } else if (shopAddress === '') {
             alert('shop address?')
         } else {
             if (delivery === true) {
@@ -51,28 +50,6 @@ export default function ThirdCart(props) {
         }
     }
 
-    function setPickup() {
-        if (delivery === true) {
-            return (
-                <Delivery/>
-            )
-        } else {
-            return (
-                <Pickup
-                    name={name}
-                    setName={setName}
-                    lastName={lastName}
-                    setLastName={setLastName}
-                    phone={phone}
-                    setPhone={setPhone}
-                    extraPhone={extraPhone}
-                    setExtraPhone={setExtraPhone}
-                    handleOnChange={handleOnChange}
-                    handleClickRadio={handleClickRadio}
-                />
-            )
-        }
-    }
 
     return (
         <div>
@@ -93,7 +70,18 @@ export default function ThirdCart(props) {
                     </button>
                 </div>
             </div>
-            {setPickup()}
+            <SetPickup
+                delivery={delivery}
+                name={name}
+                setName={setName}
+                lastName={lastName}
+                setLastName={setLastName}
+                phone={phone}
+                setPhone={setPhone}
+                extraPhone={extraPhone}
+                setExtraPhone={setExtraPhone}
+                handleOnChange={handleOnChange}
+                handleClickRadio={handleClickRadio}/>
             <div>
                 <div>
                     <button
