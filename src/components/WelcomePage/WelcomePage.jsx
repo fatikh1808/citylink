@@ -1,7 +1,7 @@
 import React from "react";
 import BreadcrumbsComponent from "../Breadcrumbs";
 
-export default function WelcomePage() {
+const WelcomePage = () => {
 
     return (
         <div>
@@ -12,3 +12,4 @@ export default function WelcomePage() {
         </div>
     )
 }
+export default WelcomePage;

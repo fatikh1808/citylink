@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import SetPickup from "./SetPickup";
 
-export default function ThirdCart(props) {
+const ThirdCart = (props) => {
 
     const {
         stepperGo,
@@ -97,3 +97,5 @@ export default function ThirdCart(props) {
         </div>
     );
 }
+
+export default ThirdCart;

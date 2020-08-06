@@ -5,7 +5,7 @@ import BreadcrumbsComponent from "../Breadcrumbs";
 import ItemBar from "./ItemBar";
 import {Link, useParams} from "react-router-dom";
 
-export default function Item(props) {
+const Item = (props) => {
 
     let {id} = useParams();
     const {items, customerId, buyItem, getBoughtItem} = props;
@@ -95,3 +95,5 @@ export default function Item(props) {
         </div>
     )
 }
+
+export default Item;

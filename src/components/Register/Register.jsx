@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "./Register.css"
 import {useHistory} from "react-router-dom";
 
-export default function Register(props) {
+const Register = (props) => {
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -89,3 +89,5 @@ export default function Register(props) {
         </div>
     );
 }
+
+export default Register;

@@ -19,7 +19,7 @@ export default function FifthCart(props) {
         lastName
     } = props;
 
-    function checkBoxChange(setName, event) {
+    const checkBoxChange = (setName, event) => {
         const {checked, id} = event.target
         if (checked === true) {
             setName(id)
@@ -28,7 +28,7 @@ export default function FifthCart(props) {
         }
     }
 
-    function checkBoxInfoChange(setTrueInfo, event) {
+    const checkBoxInfoChange = (setTrueInfo, event) => {
         const {checked} = event.target
         if (checked === true) {
             setTrueInfo(true)
@@ -37,8 +37,8 @@ export default function FifthCart(props) {
         }
     }
 
-    function sendInfoGoods() {
-        if (typeGetCheck !== '' && infoToGetElectronCheck !== '' && trueInfo === true){
+    const sendInfoGoods = () => {
+        if (typeGetCheck !== '' && infoToGetElectronCheck !== '' && trueInfo === true) {
             setOrderInfo([...orderInfo, typeGetCheck, infoToGetElectronCheck, getSmsWithNumberOfTheGood, getSmsWhenGoodCame, comments, sortedBuyItems])
             stepperGo({
                 name: 'fifthCart',

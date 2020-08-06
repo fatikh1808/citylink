@@ -37,9 +37,7 @@ const App = () => {
                         <Route path="/catalog/:groupId" children={<Group/>}/>
                         <Route path="/catalog" children={<Catalog/>}/>
                     </Switch>
-
-                    {background && <Route path={'/auth'} children={<Auth/>}/>}
-
+                    {background && <Route path={'/auth'} children={<Auth/>}/>}s
                 </div>
             </div>
         </div>

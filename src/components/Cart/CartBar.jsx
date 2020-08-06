@@ -1,11 +1,11 @@
 import React from "react";
+import BarButton from "./BarButton";
 
-export default function CartBar(props) {
+const CartBar = (props) => {
 
     const {
         stepperGo,
         firstCart,
-        boughtItems,
         sum
     } = props;
 
@@ -20,18 +20,6 @@ export default function CartBar(props) {
         }
     }
 
-    function Button() {
-        if (firstCart) {
-            return (
-                <button
-                    className={'cart_bar_button'}
-                    onClick={() => stepperGo(stepperBar())}
-                >
-                    Оформить заказ
-                </button>
-            );
-        }
-    }
 
     return (
         <div className={'cart_bar_content'}>
@@ -48,7 +36,11 @@ export default function CartBar(props) {
             <div className={'cart_bar_content_section_two'}>
                 <div className={'cart_bar_content_section_two_sum'}>
                     <div className={'cart_bar_content_section_two_button'}>
-                        {Button()}
+                        <BarButton
+                        firstCart={firstCart}
+                        stepperGo={stepperGo}
+                        stepperBar={stepperBar}
+                        />
                     </div>
                     <div className={'payment_services'}>
                         <img src="https://static.citilink.ru/media/global/visa.png?1587480945" alt="Visa"/>
@@ -64,3 +56,5 @@ export default function CartBar(props) {
         </div>
     )
 }
+
+export default CartBar;

@@ -1,4 +1,5 @@
 import React from 'react';
+import SecondCartItem from "./SecondCartItem";
 
 export default function SecondCart(props) {
 
@@ -7,7 +8,6 @@ export default function SecondCart(props) {
         sortedBuyItems
     } = props;
 
-    {console.log(sortedBuyItems)}
     return (
         <div>
             <div className={'order_second '}>
@@ -32,24 +32,9 @@ export default function SecondCart(props) {
             </div>
             {
                 sortedBuyItems.map((item) => (
-                    <div className={'product_info_container'} key={item.id}>
-                        <div className={'image_container_second'}>
-                            <img
-                                className={'product_info_img_img'}
-                                src={item.item.mainImg}
-                                alt="123456"
-                            />
-                        </div>
-                        <div className={'name_container_second'}>
-                            {item.item.id} {item.item.name}
-                        </div>
-                        <div className={'parse_container_second'}>
-                            {item.countItem} шт.
-                        </div>
-                        <div className={'price_container_second'}>
-                            {item.item.price * item.countItem} p
-                        </div>
-                    </div>
+                    <SecondCartItem
+                        item={item}
+                    />
                 ))
             }
             <div className={'next_commands'}>

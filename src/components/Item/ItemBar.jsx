@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import './Item.css'
 
-export default function ItemBar(props) {
+const ItemBar = (props) => {
 
     const [buy, setBuy] = useState(null)
     let {item, customerId, buyItem, getBoughtItem} = props;
@@ -17,7 +17,6 @@ export default function ItemBar(props) {
 
     return (
         <div className={'item_bar_content'}>
-            {console.log(buy)}
             <div className={'item_bar_content_first_line'}>
                 <span className={'bonus_line'}>
                     +89 bonus
@@ -74,3 +73,5 @@ export default function ItemBar(props) {
         </div>
     )
 }
+
+export default ItemBar;

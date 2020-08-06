@@ -3,15 +3,11 @@ import React, {useEffect, useState} from "react";
 import CartBar from "./CartBar";
 import './Cart.css';
 
-import SecondCart from "../../containers/SecondCart";
-import ThirdCart from "../../containers/ThirdCart";
-import FourthCart from "../../containers/FourthCart";
-import FifthCart from "../../containers/FifthCart";
-import FirstCart from "../../containers/FirstCart"
+import Stepper from "./Stepper";
 
 const step = ['Сборка заказа', 'Сервисы и услуги', 'Способ и адрес доставки', 'Способ оплаты', 'Подтверждение и оплата'];
 
-export default function Cart(props) {
+const Cart = (props) => {
 
     const {
         firstCart,
@@ -119,54 +115,9 @@ export default function Cart(props) {
         setGeneralPrice(sum(sortedBuyItems))
     }, [sortedBuyItems])
 
-    function stepper() {
-        if (firstCart) {
-            return <FirstCart
-                boughtItems={sortedBuyItems}
-                generalPrice={generalPrice}
-                generalAmount={generalAmount}
-                onChange={onChange}
-                onChangeCheckbox={onChangeCheckbox}
-                generalDelete={generalDelete}
-            />
-        } else if (secondCart) {
-            return <SecondCart
-                stepperGo={stepperGo}
-                sortedBuyItems={sortedBuyItems}
-            />
-        } else if (thirdCart) {
-            return <ThirdCart
-                stepperGo={stepperGo}
-                setOrderInfo={setOrderInfo}
-                name={name}
-                setName={setName}
-                lastName={lastName}
-                setLastName={setLastName}
-            />
-        } else if (fourthCart) {
-            return <FourthCart
-                stepperGo={stepperGo}
-                orderInfo={orderInfo}
-                setOrderInfo={setOrderInfo}
-            />
-        } else {
-            return <FifthCart
-                stepperGo={stepperGo}
-                orderInfo={orderInfo}
-                setOrderInfo={setOrderInfo}
-                sortedBuyItems={sortedBuyItems}
-                generalPrice={generalPrice}
-                generalAmount={generalAmount}
-                name={name}
-                lastName={lastName}
-            />
-        }
-    }
-
     return (
         <div>
             <div className={'cart_content'}>
-                {console.log(orderInfo)}
                 <div className={'cart_name_header'}>
                     <h1>
                         Корзина
@@ -182,7 +133,26 @@ export default function Cart(props) {
                     })}
                 </div>
                 <div className={'cart_content'}>
-                    {stepper()}
+                    <Stepper
+                        firstCart={firstCart}
+                        secondCart={secondCart}
+                        thirdCart={thirdCart}
+                        fourthCart={fourthCart}
+                        boughtItems={boughtItems}
+                        generalPrice={generalPrice}
+                        generalAmount={generalAmount}
+                        onChange={onChange}
+                        onChangeCheckbox={onChangeCheckbox}
+                        generalDelete={generalDelete}
+                        stepperGo={stepperGo}
+                        sortedBuyItems={sortedBuyItems}
+                        setOrderInfo={setOrderInfo}
+                        name={name}
+                        setName={setName}
+                        lastName={lastName}
+                        setLastName={setLastName}
+                        orderInfo={orderInfo}
+                    />
                 </div>
             </div>
             <div>
@@ -196,3 +166,5 @@ export default function Cart(props) {
         </div>
     )
 }
+
+export default Cart;

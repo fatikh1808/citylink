@@ -7,7 +7,7 @@ import Icons from "../Icons";
 import './AppBar.css';
 
 
-export default function Categories(props) {
+const Categories = (props) => {
 
     const history = useHistory();
     const { items } = props;
@@ -26,3 +26,5 @@ export default function Categories(props) {
         </div>
     );
 }
+
+export default Categories;
