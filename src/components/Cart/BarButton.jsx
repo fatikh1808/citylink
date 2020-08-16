@@ -17,6 +17,8 @@ const BarButton = (props) => {
                 Оформить заказ
             </button>
         );
+    } else {
+        return null
     }
 }
 export default BarButton;

@@ -5,7 +5,8 @@ const FirstCartItem = (props) => {
     const {
         item,
         index,
-        onChangeCheckbox
+        onChangeCheckbox,
+        onChange
     } = props;
 
     return (
